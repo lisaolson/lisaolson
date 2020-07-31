@@ -2,7 +2,7 @@
 Hello!  This is my personal website I've been working on over the last couple years.  It's seen many iterations and I'm continually updating/revising the projects and UI. 
 
 ### Live
-Visit at http://lisaolson.info
+Visit at https://lisaolson.dev
 
 ### Features
 - Custom CSS and Animations
