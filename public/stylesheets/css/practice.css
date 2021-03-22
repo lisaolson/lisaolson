@@ -1,0 +1,11 @@
+.process img {
+    background: cover;
+    width: 40%;
+    position: absolute;
+}
+
+.series1 {
+    right: 0;
+    height: 50em;
+    margin-right: 10%;
+}
