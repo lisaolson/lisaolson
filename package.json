@@ -16,8 +16,7 @@
     "live-server": "^1.2.1",
     "node-sass": "^4.13.1",
     "nodemailer": "^4.0.1",
-    "npm": "^6.14.2",
-    "three": "^0.114.0"
+    "npm": "^6.14.11"
   },
   "devDependencies": {},
   "scripts": {
