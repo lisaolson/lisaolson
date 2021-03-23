@@ -139,7 +139,7 @@ h3:first-child {
     position: fixed;
     right: 0;
     bottom: 0;
-    padding: 5% 5% 2.5% 2.5%;
+    padding: 5% 5% 2.5% 5%;
     margin-bottom: 2%;
     text-shadow: 5px 5px #FFD2FC;
     border-bottom: 5px solid;
