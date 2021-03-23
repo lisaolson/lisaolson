@@ -218,6 +218,7 @@ h3:first-child {
 
   @media (max-width: 699px) {
       .name {
+          border-left: 0;
           font-size: .8rem;
           text-shadow: 2px 2px #FFD2FC;
       }
