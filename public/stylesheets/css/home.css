@@ -1,6 +1,6 @@
 /* Header  */
 
-.opener-section {
+/* .opener-section {
     height: 32rem;
     display: flex;
 }
@@ -47,11 +47,11 @@
     font-size: 1.3em;
     color: #00DCFF;
     text-shadow: 1px 1px white;
-}
+} */
 
 /* See My Work */
 
-.mywork {
+/* .mywork {
     position: absolute;
     top: 70%;
     right: 3%;
@@ -85,7 +85,7 @@
 .mywork:hover a {
     transition: all .8s;
     color: #F7F7F7
-}
+} */
 
 .body-paragraphs {
     padding: 1rem;
@@ -128,7 +128,7 @@ h3:first-child {
     font-size: 16px;
 }
 
-@media (min-width: 1140px) {
+/* @media (min-width: 1140px) {
     .blueyellow {
         width: 40%;
     }
@@ -152,17 +152,14 @@ h3:first-child {
 }
   
   @media (max-width: 699px) {
-      .blueyellow {
-          display: none;
-      }
-
       h2.name {
-        margin: 45% 0 0 10%;
+        margin: 105% 0 0 0;
+
+        right: 0;
         transform: rotate(0deg);
-        position: initial;
       }
       .opener-paragraph {
-        margin-top: 35%;
+        top: 65%;
         font-family: 'Poiret One';
         position: initial;
         display: inline;
@@ -171,11 +168,11 @@ h3:first-child {
       .engcre {
         letter-spacing: .5em;
         position: inherit;
-        margin: 10%;
+        margin: 5%;
       }
 
       .mywork {
-        top: 75%;
+        top: 80%;
         padding: 5%;
         position: fixed;
       }
@@ -184,4 +181,4 @@ h3:first-child {
         padding: 1rem;
         margin: 10em 5em 10em 1em;
     }
-  }
+  } */
