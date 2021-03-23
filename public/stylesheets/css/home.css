@@ -133,18 +133,13 @@ h3:first-child {
     letter-spacing: 27px;
     color: white;
     right: 0;
-    bottom: 0;
+    top: 0;
     text-transform: uppercase;
     font-size: 3rem;
     position: fixed;
-    padding: 2.5% 5%;
+    padding: 2.5%;
     margin-bottom: 2%;
     text-shadow: 4px 4px #FF5CFC;
-    border-top: 5px solid;
-    border-left: 5px solid;
-    border-image: linear-gradient(to top right, #FF01FB 0%, #00DCFF 100%);
-    border-image-slice: 1;
-    font-weight: bolder;
 }
 
 .name-double {
@@ -152,11 +147,11 @@ h3:first-child {
     letter-spacing: 27px;
     color: white;
     right: 0;
-    bottom: 0;
+    top: 0;
     text-transform: uppercase;
     font-size: 3rem;
     position: fixed;
-    padding: 2.5% 5%;
+    padding: 2.5%;
     margin-bottom: 2%;
     text-shadow: -4px -4px #85EFFF;
 }
@@ -218,13 +213,16 @@ h3:first-child {
 
   @media (max-width: 699px) {
       .name {
-          border-left: 0;
-          font-size: .8rem;
+          top: 75%;
+          bottom: 0;
+          font-size: 4rem;
           text-shadow: 2px 2px #FFD2FC;
       }
 
       .name-double {
-        font-size: .8rem;
-        text-shadow: -2px -2px #FFD2FC;
+          top: 75%;
+          bottom: 0;
+        font-size: 4rem;
+        text-shadow: -2px -2px #85EFFF;
       }
   }
