@@ -128,6 +128,27 @@ h3:first-child {
     font-size: 16px;
 }
 
+.name {
+    font-family: 'Thasadith', sans-serif;
+    letter-spacing: 27px;
+    color: white;
+    right: 0;
+    bottom: 0;
+    text-transform: uppercase;
+    font-size: 3rem;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    padding: 5% 5% 2.5% 2.5%;
+    margin-bottom: 2%;
+    text-shadow: 5px 5px #FFD2FC;
+    border-bottom: 5px solid;
+    border-radius: 100px;
+    border-image: linear-gradient(to top right, #FF01FB 0%, #00DCFF 100%);
+    border-image-slice: 1;
+    font-weight: bolder;
+}
+
 /* @media (min-width: 1140px) {
     .blueyellow {
         width: 40%;
