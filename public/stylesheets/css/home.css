@@ -28,7 +28,7 @@
     transform: rotate(270deg);
     font-family: 'Thasadith', sans-serif;
     letter-spacing: 27px;
-    color: #595959;
+    color: white;
     text-transform: uppercase;
     font-size: 2.5rem; 
     margin: 6.25rem 0;
@@ -39,13 +39,14 @@
     position: absolute;
     top: 10.6rem;
     right: 5.8em;
+    color: white;
 }
 
 .cre {
     font-family: 'Dancing Script', cursive;
     font-size: 1.3em;
-    color: #FF01FB;
-    text-shadow: 1px 1px #2b2b2b;
+    color: #00DCFF;
+    text-shadow: 1px 1px white;
 }
 
 /* See My Work */
@@ -86,6 +87,46 @@
     color: #F7F7F7
 }
 
+.body-paragraphs {
+    padding: 1rem;
+    margin: 8em 20em 10em 20em;
+}
+
+.body-paragraphs h3,
+.body-paragraphs p {
+    color: white;
+    padding-bottom: .3em;
+}
+
+h3 {
+    margin-bottom: .5rem;
+    letter-spacing: 3px;
+    text-shadow: .7px .7px #2b2b2b;
+}
+
+h3:first-child {
+    padding: 1em 0 0 0;
+    border-top: 5px solid;
+    border-radius: 100px;
+    border-image: linear-gradient(to top right, #FF01FB 0%, #00DCFF 100%);
+    border-image-slice: 1;
+    font-weight: bolder;
+}
+
+.body-paragraphs p:last-child {
+    border-bottom: 5px solid;
+    border-radius: 100px;
+    border-image: linear-gradient(to top right, #FF01FB 0%, #00DCFF 100%);
+    border-image-slice: 1;
+    font-weight: bolder;
+}
+
+.special-text {
+    font-family: 'Dancing Script', cursive;
+    text-shadow: .7px .7px white;
+    letter-spacing: 2px;
+    font-size: 16px;
+}
 
 @media (min-width: 1140px) {
     .blueyellow {
@@ -103,6 +144,10 @@
     }
     .name {
         transform: rotate(0deg);
+    }
+    .body-paragraphs {
+        padding: 1rem;
+        margin: 5em 10em 7em 10em;
     }
 }
   
@@ -135,7 +180,8 @@
         position: fixed;
       }
 
-      svg {
-        margin: 8rem 0;
-      }
+      .body-paragraphs {
+        padding: 1rem;
+        margin: 10em 5em 10em 1em;
+    }
   }
