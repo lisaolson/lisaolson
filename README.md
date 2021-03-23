@@ -1,5 +1,5 @@
 # Personal Website
-Hello!  This is my personal website I've been working on over the last couple years.  It's seen many iterations and I'm continually updating/revising the projects and UI. 
+Hello!  This is my personal website I've been working on over the last couple years.  It's seen many iterations and I'm continually updating/revising the UI. 
 
 ### Live
 Visit at https://lisaolson.dev
@@ -15,16 +15,8 @@ Visit at https://lisaolson.dev
 - HTML5/CSS3/Boostrap
 - CSS3 Animations
 - JavaScript
-- FontAwesome
 - Google Fonts
-
-##### Images
-Below contains screenshots of the live site.
-
-
-![Screen Shot of Final Product](public/images/newscreen.png)
-![Screen Shot of Final Product](public/images/newcreen2.png)
-![Screen Shot of Final Product](public/images/newscreen3.png)
 
 #### Author
 Lisa Olson | @eunoia_lo
+ 
