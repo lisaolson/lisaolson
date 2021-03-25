@@ -11,13 +11,13 @@
 }
 
 .icons .icon {
-    width: 30px;
-    height: 30px;
+    width: 25px;
+    height: 25px;
     text-align: center;
     vertical-align: middle;
     padding: 1rem;
     background-image: linear-gradient(to bottom right,  #00DCFF 0%, #FF01FB 100%);
-    box-shadow: 0 1px 3px #00DCFF, 0 3px 5px #FF01FB;
+    box-shadow: 0 3px 5px #FF01FB, 0 2px 5px #00DCFF;
     transform: rotate(0deg);
     transition: .3s all;
     border-radius: 100%;
@@ -37,12 +37,12 @@
     .icons a {
         font-size: 20px;
         margin: .35rem;
-        padding: .1rem;
     }
 
     .icons .icon {
         width: 20px;
-        height: 20px;
+        height: 18px;
+        padding: 1.2rem;
     }
 }
 
