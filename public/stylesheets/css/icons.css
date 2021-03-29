@@ -19,7 +19,6 @@
     background-image: linear-gradient(to bottom right,  #00DCFF 0%, #FF01FB 100%);
     box-shadow: 0 2px 4px #FF01FB, 0 2px 4px #00DCFF;
     transform: rotate(0deg);
-    transition: .3s all;
     border-radius: 100%;
 }
 
